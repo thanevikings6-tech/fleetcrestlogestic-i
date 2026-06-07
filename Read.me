@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FleetCrest Investments</title>
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+}
+
+body{
+background:#000;
+color:#fff;
+line-height:1.6;
+}
+
+header{
+background:#111;
+padding:20px;
+position:sticky;
+top:0;
+}
+
+nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+max-width:1200px;
+margin:auto;
+}
+
+.logo{
+font-size:28px;
+font-weight:bold;
+color:#D4AF37;
+}
+
+nav ul{
+display:flex;
+list-style:none;
+}
+
+nav ul li{
+margin-left:20px;
+}
+
+nav ul li a{
+color:white;
+text-decoration:none;
+}
+
+.hero{
+background:linear-gradient(rgba(0,0,0,.8),rgba(0,0,0,.8)),
+url('https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=1400&q=80');
+background-size:cover;
+background-position:center;
+height:90vh;
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+padding:20px;
+}
+
+.hero-content h1{
+font-size:55px;
+color:#D4AF37;
+margin-bottom:15px;
+}
+
+.hero-content p{
+font-size:20px;
+margin-bottom:20px;
+}
+
+.btn{
+background:#D4AF37;
+color:#000;
+padding:12px 25px;
+text-decoration:none;
+font-weight:bold;
+border-radius:5px;
+}
+
+section{
+padding:80px 20px;
+max-width:1200px;
+margin:auto;
+}
+
+.section-title{
+text-align:center;
+font-size:40px;
+color:#D4AF37;
+margin-bottom:40px;
+}
+
+.about{
+text-align:center;
+font-size:18px;
+}
+
+.plans{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+}
+
+.plan{
+background:#111;
+border:1px solid #D4AF37;
+padding:25px;
+border-radius:10px;
+text-align:center;
+}
+
+.plan h3{
+color:#D4AF37;
+margin-bottom:10px;
+}
+
+.plan-price{
+font-size:32px;
+margin-bottom:10px;
+font-weight:bold;
+}
+
+.features{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+}
+
+.feature{
+background:#111;
+padding:25px;
+border-radius:10px;
+text-align:center;
+}
+
+.feature h3{
+color:#D4AF37;
+margin-bottom:10px;
+}
+
+.contact{
+text-align:center;
+}
+
+.contact a{
+color:#D4AF37;
+text-decoration:none;
+}
+
+footer{
+background:#111;
+text-align:center;
+padding:30px;
+}
+
+@media(max-width:768px){
+.hero-content h1{
+font-size:36px;
+}
+nav{
+flex-direction:column;
+}
+nav ul{
+margin-top:10px;
+}
+}
+</style>
+</head>
+
+<body><section id="register">
+
+<h2 class="section-title">Register Now</h2>
+
+<form action="#" method="post">
+
+<input type="text" placeholder="Full Name" required>
+
+<input type="tel" placeholder="Phone Number" required>
+
+<input type="email" placeholder="Email Address" required>
+
+<input type="text" placeholder="Home Address" required>
+
+<select required>
+<option>Select Investment Plan</option>
+<option>Starter Plan</option>
+<option>Growth Plan</option>
+<option>Premium Plan</option>
+<option>Wealth Plan</option>
+<option>Legacy Plan</option>
+</select>
+
+<button type="submit">Submit Registration</button>
+
+</form>
+
+</section>
+<section id="blog">
+
+<h2 class="section-title">Company News</h2>
+
+<div class="feature">
+
+<h3>FleetCrest Expansion 2026</h3>
+
+<p>
+We are excited to announce new investment opportunities and improved investor support services.
+</p>
+
+</div>
+
+<div class="feature">
+
+<h3>Gold Market Update</h3>
+
+<p>
+Stay informed about market trends and opportunities in precious metals.
+</p>
+
+</div>
+
+</section> 
+
+<header>
+<nav>
+<div class="logo">FleetCrest Investments</div>
+
+<ul>
+<li><a href="#about">About</a></li>
+<li><a href="#plans">Plans</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+</nav>
+</header>
+
+<section class="hero">
+<div class="hero-content">
+<h1>FleetCrest Investments</h1>
+<p>Strategy. Growth. Wealth.</p>
+<p>Building Wealth. Creating Legacies.</p>
+<a href="#plans" class="btn">View Plans</a>
+</div>
+</section>
+
+<section id="about">
+<h2 class="section-title">About Us</h2>
+
+<div class="about">
+<p>
+FleetCrest Investments is an online investment company committed to helping clients pursue long-term financial growth through strategic investment opportunities.
+</p>
+<br>
+<p>
+We focus on transparency, professionalism, risk awareness, and client satisfaction while helping investors build wealth for the future.
+</p>
+</div>
+</section>
+
+<section id="plans">
+<h2 class="section-title">Investment Plans</h2>
+
+<div class="plans">
+
+<div class="plan">
+<h3>Starter Plan</h3>
+<div class="plan-price">$500</div>
+<p>Duration: 2 weeks </p>
+</div>
+
+<div class="plan">
+<h3>Growth Plan</h3>
+<div class="plan-price">$1,000</div>
+<p>Duration: 1 month </p>
+</div>
+
+<div class="plan">
+<h3>Premium Plan</h3>
+<div class="plan-price">$2,500</div>
+<p>Duration: 3 Months</p>
+</div>
+
+<div class="plan">
+<h3>Wealth Plan</h3>
+<div class="plan-price">$5,000+</div>
+<p>Duration:  5 Months</p>
+</div>
+
+<div class="plan">
+<h3>Legacy Plan</h3>
+<div class="plan-price">$10,000+</div>
+<p>Duration: 7 Months</p>
+</div>
+
+</div>
+</section>
+
+<section>
+<h2 class="section-title">Why Choose Us</h2>
+
+<div class="features">
+
+<div class="feature">
+<h3>Strategic Investments</h3>
+<p>Focused on growth opportunities and long-term wealth building.</p>
+</div>
+
+<div class="feature">
+<h3>Transparent Approach</h3>
+<p>Clear communication and professional support.</p>
+</div>
+
+<div class="feature">
+<h3>Client Focused</h3>
+<p>Your financial goals remain our priority.</p>
+</div>
+
+<div class="feature">
+<h3>Online Accessibility</h3>
+<p>Access support and information from anywhere.</p>
+</div>
+
+</div>
+</section>
+
+<section id="contact">
+<h2 class="section-title">Contact Us</h2>
+
+<div class="contact">
+
+<p>Email:</p>
+<p>fleetcrestlogistics@gmail.com</p>
+
+<br>
+
+<p>Facebook:</p>
+<p>
+<a href="https://www.facebook.com/profile.php?id=61590677727911">
+Visit Our Facebook Page
+</a>
+</p>
+
+</div>
+</section>
+
+<footer>
+<h3 style="color:#D4AF37;">FleetCrest Investments</h3>
+<p>Strategy. Growth. Wealth.</p>
+<p>© 2026 FleetCrest Investments</p>
+</footer>
+
+</body>
+</html>
